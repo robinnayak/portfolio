@@ -1,0 +1,23 @@
+.line {
+    height: 2px;
+    width: 60px;
+    background-color: aliceblue;
+    opacity: 0;
+}
+
+.link {
+    font-size: 0.8rem;
+    color: rgb(214, 192, 192);
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: all 0.3s;
+}
+
+.link:hover {
+    font-size: 1rem;
+    color: white;
+}
+
+.navlink:hover .line {
+    opacity: 100;
+}
