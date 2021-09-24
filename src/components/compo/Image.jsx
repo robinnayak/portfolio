@@ -12,7 +12,7 @@ const Container = styled.div`
 
 const Name = styled.span`
 font-size:1rem;
-cursor:pointer;
+cursor:default;
 width:100%;
 color:white;
 position:absolute;
@@ -26,8 +26,8 @@ function Image({ name, imageurl,ifclick,perindex }) {
   // console.log(ifclick());
   // console.log(perindex);
   return (
-    <Container className="member" imageurl={imageurl}>
-      <Name onClick={()=>ifclick(perindex)} className="membername">{name}</Name>
+    <Container onClick={()=>ifclick(perindex)} className="member" imageurl={imageurl}>
+      <Name className="membername">{name}</Name>
     </Container>
   );
 }
