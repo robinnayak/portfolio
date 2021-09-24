@@ -4,6 +4,10 @@ import third from "../photos/3.png";
 import fourth from "../photos/5.svg";
 import fifth from "../photos/4.png";
 import sixth from "../photos/4.svg";
+import firstm from "../photos/1.jpg";
+import secondm from "../photos/2.jpg";
+import thirdm from "../photos/3.jpg";
+
 const person1 = [{
         background: "#212529",
         Name: "Robin Nayak",
@@ -76,35 +80,44 @@ const person1 = [{
             },
         ],
         education: [{
-                boardname: "CBSE",
+                boardname: "CBSE ",
                 percentage: "64%",
+                color: "#fef47c",
             },
             {
-                boardname: "HSEB",
+                boardname: "HSEB ",
                 percentage: "76%",
+                color: "#fef47c",
             },
             {
-                boardname: "PU",
+                boardname: "PU ",
                 percentage: "pursuing",
+                color: "#4E5283",
             },
         ],
         OurMembers: [{
                 name: "Rohit Shrestha",
+                img: firstm,
             },
             {
                 name: "Shristi thapa",
+                img: secondm,
             },
             {
                 name: "Sumit Khadka",
+                img: thirdm,
             },
             {
                 name: "Rupak Dahal",
+                img: firstm,
             },
             {
                 name: "Subina Shrestha",
+                img: thirdm,
             },
             {
                 name: "Raju Karki",
+                img: secondm,
             },
         ]
     },

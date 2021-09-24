@@ -11,8 +11,8 @@ const Container = styled.div`
 const Skill = styled.div`
   color: white;
   font-family: "Grechen Fuemen", cursive;
+  cursor: default;
   font-weight: bold;
-  cursor: pointer;
   font-size: 2rem;
 `;
 const Line = styled.div`

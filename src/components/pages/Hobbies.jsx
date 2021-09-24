@@ -16,7 +16,7 @@ const Hobbie = styled.div`
   color: white;
   font-family: "Grey Qo", cursive;
   font-weight: bolder;
-  cursor: pointer;
+  cursor: default;
   font-size: 3rem;
 `;
 // position:absolute;
@@ -33,6 +33,12 @@ const Hobbyarea = styled.div`
   grid-template-rows: auto;
   justify-items: center;
   align-items: center;
+  column-gap:1rem;
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    row-gap:1rem;
+  }
 `;
 function Hobbies() {
   return (
@@ -45,14 +51,8 @@ function Hobbies() {
       </Hobbie>
       <Hobbyarea>
         {person1[0].url.map(({svg})=>(
-            <Icons urlsvg = {svg} />
+            <Icons key={svg} urlsvg = {svg} />
         ))}
-
-        {/* <Icons />
-        <Icons />
-        <Icons />
-        <Icons />
-        <Icons /> */}
       </Hobbyarea>
     </Container>
   );

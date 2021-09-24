@@ -21,3 +21,54 @@
 .navlink:hover .line {
     opacity: 100;
 }
+
+input[type=text] {
+    width: 70%;
+    height: 30px;
+    margin-top: 0.5rem;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+input[type=text]::placeholder {
+    color: black;
+    opacity: 0.8;
+}
+
+input[type=email] {
+    width: 70%;
+    height: 30px;
+    margin-top: 0.5rem;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+input[type=email]:focus {
+    outline: none;
+}
+
+input[type=email]::placeholder {
+    color: black;
+    opacity: 0.8;
+}
+
+textarea {
+    margin-top: 0.5rem;
+    width: 70%;
+    height: 80px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea::placeholder {
+    color: black;
+    opacity: 0.8;
+}

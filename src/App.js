@@ -1,7 +1,11 @@
 import { Home, Facebook, Twitter, YouTube, Telegram } from "@material-ui/icons";
 import styled, { keyframes } from "styled-components";
 import Background from "./components/pages/Background";
+import Contact from "./components/pages/Contact";
+import Education from "./components/pages/Education";
+import Footer from "./components/pages/Footer";
 import Hobbies from "./components/pages/Hobbies";
+import Member from "./components/pages/Member";
 import Navbar from "./components/pages/Navbar";
 import Skills from "./components/pages/Skills";
 import "./components/style.css";
@@ -65,10 +69,12 @@ function App() {
       <Header />
       <Navbar />
       <Background />
-      <hr />
       <Skills />
-      <hr />
       <Hobbies />
+      <Education />
+      <Member/>
+      <Contact />
+      <Footer />
     </div>
   );
 }
