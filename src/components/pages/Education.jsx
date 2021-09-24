@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import education from "../../photos/education.svg";
 import educationcap from "../../photos/educationcap.svg";
-import { person1 } from "../DataDetail";
 const Container = styled.div`
   min-height: 40vh;
   margin: 0.5rem 3rem;
@@ -87,7 +86,7 @@ const Percentage = styled.div`
 
 
 
-function Education() {
+function Education({person2}) {
   return (
     <Container>
       <Title>
@@ -95,7 +94,7 @@ function Education() {
         <Icon></Icon> <Heading>Education</Heading>
       </Title>
       <Skilldetail>
-        {person1[0].education.map(({boardname,percentage,color})=>(
+        {person2.education.map(({boardname,percentage,color})=>(
         <Detail key={boardname}>
           <Name><EducationIcon />{boardname}</Name>
           <Percentage>

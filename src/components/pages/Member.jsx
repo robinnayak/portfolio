@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Image from "../compo/Image";
-import { person1 } from "../DataDetail";
+import { person } from "../DataDetail";
 const Container = styled.div`
   min-height: 70vh;
   margin: 0.5rem 3rem;
@@ -29,13 +29,13 @@ row-gap:2rem;
   }
 `
 
-function Member() {
+function Member({person2,ifclick}) {
   return (
     <Container>
       <Title>Our Members</Title>
       <ImageContainer>
-        {person1[0].OurMembers.map((member)=>(
-          <Image key={member.name} name = {member.name} imageurl = {member.img} />
+        {person2.OurMembers.map((member)=>(
+          <Image key={member.name} perindex={person[member.index]} ifclick={ifclick} name = {member.name} imageurl = {member.img} />
         ))}
         {/* <ImageBack imageurl={third}  /> */}
       </ImageContainer>

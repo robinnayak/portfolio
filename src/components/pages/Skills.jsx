@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { person1 } from "../DataDetail";
 
 const Container = styled.div`
   margin: 0.5rem 3rem;
@@ -59,13 +58,13 @@ const Percentage = styled.div`
   margin: 0rem 0.2rem;
 `;
 
-function Skills() {
+function Skills({person2}) {
   return (
     <Container>
       <Skill>Skills</Skill>
       <Line></Line>
       <Skilldetail>
-        {person1[0].Skills.map(({name,percentage})=>(
+        {person2.Skills.map(({name,percentage})=>(
         <Detail key={name}>
           <Name>{name}</Name>
           <Percentage>

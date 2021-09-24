@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { ArrowRightAlt } from "@material-ui/icons";
 import Icons from "../compo/Icons";
-import { person1 } from "../DataDetail";
 
 
 const Container = styled.div`
@@ -40,7 +39,7 @@ const Hobbyarea = styled.div`
     row-gap:1rem;
   }
 `;
-function Hobbies() {
+function Hobbies({person2}) {
   return (
     <Container>
       <Hobbie>
@@ -50,7 +49,7 @@ function Hobbies() {
         </Arrow>
       </Hobbie>
       <Hobbyarea>
-        {person1[0].url.map(({svg})=>(
+        {person2.url.map(({svg})=>(
             <Icons key={svg} urlsvg = {svg} />
         ))}
       </Hobbyarea>

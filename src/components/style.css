@@ -72,3 +72,30 @@ textarea::placeholder {
     color: black;
     opacity: 0.8;
 }
+
+@keyframes moveup {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: -20px;
+    }
+}
+
+@keyframes delayname {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.member:hover {
+    animation: moveup 1s forwards;
+    opacity: 1;
+}
+
+.member:hover .membername {
+    animation: delayname 0.5s linear 0.3s forwards;
+}
