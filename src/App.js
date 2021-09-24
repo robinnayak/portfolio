@@ -1,4 +1,4 @@
-import { Home, Facebook, Twitter, YouTube, Telegram } from "@material-ui/icons";
+import { Home, Facebook, GitHub, YouTube, Telegram } from "@material-ui/icons";
 import styled, { keyframes } from "styled-components";
 import Background from "./components/pages/Background";
 import Contact from "./components/pages/Contact";
@@ -96,7 +96,7 @@ function Header() {
           </Medialinks>
           <Medialinks>
             {" "}
-            <Twitter />{" "}
+            <GitHub />{" "}
           </Medialinks>
           <Medialinks>
             {" "}
