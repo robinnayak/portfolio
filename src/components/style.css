@@ -99,3 +99,7 @@ textarea::placeholder {
 .member:hover .membername {
     animation: delayname 0.5s linear 0.3s forwards;
 }
+
+.hobbycontainer:hover .hobbydesc {
+    animation: delayname 1s linear 0.3s forwards;
+}

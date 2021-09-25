@@ -10,7 +10,6 @@ import Member from "./components/pages/Member";
 import Navbar from "./components/pages/Navbar";
 import Skills from "./components/pages/Skills";
 import { person } from "./components/DataDetail";
-import { Button } from "@material-ui/core";
 import "./components/style.css";
 
 

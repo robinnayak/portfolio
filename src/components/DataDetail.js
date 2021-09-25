@@ -8,6 +8,10 @@ import firstm from "../photos/1.jpg";
 import secondm from "../photos/2.jpg";
 import thirdm from "../photos/3.jpg";
 
+// perosn array serial is places according to member index 
+// inside ourmember object place index = (number) eg:- index = 1,
+// here robin = person[0],rohit = person[1],shristi = person[2],sumit = person[3],rupak = person[4], subina = person[5] , raju = person[6]
+
 const person = [{
         background: "#212529",
         Name: "Robin Nayak",
@@ -15,21 +19,27 @@ const person = [{
 
         url: [{
                 svg: first,
+                hobbiedecs: "Sport is a preserver of health",
             },
             {
                 svg: second,
+                hobbiedecs: "Being programmer is easy, like peacock ",
             },
             {
                 svg: third,
+                hobbiedecs: "Quiet the mind, and the soul will speak",
             },
             {
                 svg: fourth,
+                hobbiedecs: "Take care of your body. it's only place to live",
             },
             {
                 svg: fifth,
+                hobbiedecs: "A book is a gift you can only open again and again",
             },
             {
                 svg: sixth,
+                hobbiedecs: "Listen, learn and grow",
             },
         ],
         Skills: [{
@@ -134,21 +144,27 @@ const person = [{
         Status: "Giving Up Is Only Option",
         url: [{
                 svg: first,
+                hobbiedecs: "Sport is a preserver of health",
             },
             {
                 svg: second,
+                hobbiedecs: "Being programmer is easy, like peacock ",
             },
             {
                 svg: third,
+                hobbiedecs: "Quiet the mind, and the soul will speak",
             },
             {
                 svg: fourth,
+                hobbiedecs: "Take care of your body. it's only place to live",
             },
             {
                 svg: fifth,
+                hobbiedecs: "A book is a gift you can only open again and again",
             },
             {
                 svg: sixth,
+                hobbiedecs: "Listen, learn and grow",
             },
         ],
         Skills: [{
@@ -245,21 +261,27 @@ const person = [{
         Status: "Giving Up Is Only Option",
         url: [{
                 svg: first,
+                hobbiedecs: "Sport is a preserver of health",
             },
             {
                 svg: second,
+                hobbiedecs: "Being programmer is easy, like peacock ",
             },
             {
                 svg: third,
+                hobbiedecs: "Quiet the mind, and the soul will speak",
             },
             {
                 svg: fourth,
+                hobbiedecs: "Take care of your body. it's only place to live",
             },
             {
                 svg: fifth,
+                hobbiedecs: "A book is a gift you can only open again and again",
             },
             {
                 svg: sixth,
+                hobbiedecs: "Listen, learn and grow",
             },
         ],
         Skills: [{
@@ -357,21 +379,27 @@ const person = [{
 
         url: [{
                 svg: first,
+                hobbiedecs: "Sport is a preserver of health",
             },
             {
                 svg: second,
+                hobbiedecs: "Being programmer is easy, like peacock ",
             },
             {
                 svg: third,
+                hobbiedecs: "Quiet the mind, and the soul will speak",
             },
             {
                 svg: fourth,
+                hobbiedecs: "Take care of your body. it's only place to live",
             },
             {
                 svg: fifth,
+                hobbiedecs: "A book is a gift you can only open again and again",
             },
             {
                 svg: sixth,
+                hobbiedecs: "Listen, learn and grow",
             },
         ],
         Skills: [{
@@ -468,21 +496,27 @@ const person = [{
         Status: "Giving Up Is Only Option",
         url: [{
                 svg: first,
+                hobbiedecs: "Sport is a preserver of health",
             },
             {
                 svg: second,
+                hobbiedecs: "Being programmer is easy, like peacock ",
             },
             {
                 svg: third,
+                hobbiedecs: "Quiet the mind, and the soul will speak",
             },
             {
                 svg: fourth,
+                hobbiedecs: "Take care of your body. it's only place to live",
             },
             {
                 svg: fifth,
+                hobbiedecs: "A book is a gift you can only open again and again",
             },
             {
                 svg: sixth,
+                hobbiedecs: "Listen, learn and grow",
             },
         ],
         Skills: [{
@@ -580,21 +614,27 @@ const person = [{
 
         url: [{
                 svg: first,
+                hobbiedecs: "Sport is a preserver of health",
             },
             {
                 svg: second,
+                hobbiedecs: "Being programmer is easy, like peacock ",
             },
             {
                 svg: third,
+                hobbiedecs: "Quiet the mind, and the soul will speak",
             },
             {
                 svg: fourth,
+                hobbiedecs: "Take care of your body. it's only place to live",
             },
             {
                 svg: fifth,
+                hobbiedecs: "A book is a gift you can only open again and again",
             },
             {
                 svg: sixth,
+                hobbiedecs: "Listen, learn and grow",
             },
         ],
         Skills: [{
@@ -692,21 +732,27 @@ const person = [{
 
         url: [{
                 svg: first,
+                hobbiedecs: "Sport is a preserver of health",
             },
             {
                 svg: second,
+                hobbiedecs: "Being programmer is easy, like peacock ",
             },
             {
                 svg: third,
+                hobbiedecs: "Quiet the mind, and the soul will speak",
             },
             {
                 svg: fourth,
+                hobbiedecs: "Take care of your body. it's only place to live",
             },
             {
                 svg: fifth,
+                hobbiedecs: "A book is a gift you can only open again and again",
             },
             {
                 svg: sixth,
+                hobbiedecs: "Listen, learn and grow",
             },
         ],
         Skills: [{

@@ -49,8 +49,8 @@ function Hobbies({person2}) {
         </Arrow>
       </Hobbie>
       <Hobbyarea>
-        {person2.url.map(({svg})=>(
-            <Icons key={svg} urlsvg = {svg} />
+        {person2.url.map(({svg,hobbiedecs})=>(
+            <Icons key={svg} urlsvg = {svg} hobbiedecs={hobbiedecs} />
         ))}
       </Hobbyarea>
     </Container>
